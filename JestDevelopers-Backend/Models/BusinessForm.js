@@ -60,3 +60,4 @@ const BusinessDataSchema = new Schema({
 });
 
 module.exports = mongoose.model('BusinessData', BusinessDataSchema);
+module.exports = BusinessData;
